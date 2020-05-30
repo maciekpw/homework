@@ -1,0 +1,40 @@
+homework:
+1. Generowanie raportu w pliku pdf
+instalowanie: pip instal fpdf
+linki:
+https://pyfpdf.readthedocs.io/en/latest/index.html
+https://www.blog.pythonlibrary.org/2018/06/05/creating-pdfs-with-pyfpdf-and-python/
+
+link do czcionki: https://pl.fonts2u.com/download.html?id=19071
+przykład: pdfmaker.py
+
+opis:
+- wykonać raport w pliku o nazwie: imię_nazwisko_indeks.pdf
+do wykonania:
+- przycinanie obrazków;
+- generowanie wykresów;
+- obwód elektryczny: schemat oraz obliczenia.
+
+2. Przycinanie obrazków
+instalowanie: pip install
+linki:
+przykład:
+
+opis:
+
+3. Generowanie wykresów
+instalowanie: pip install
+linki:
+przykład:
+
+opis:
+
+4. Obwód elektryczny: schemat oraz obliczenia
+instalowanie: pip install lcapy
+linki: http://lcapy.elec.canterbury.ac.nz/index.html
+rysowanie: http://lcapy.elec.canterbury.ac.nz/schematics.html
+symulowanie: http://lcapy.elec.canterbury.ac.nz/networks.html#series-r-c-network
+alternatywa: schemdraw, ahkab, ręcznie
+przykład:symlcapy.py
+
+opis:
