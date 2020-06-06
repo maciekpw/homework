@@ -11,30 +11,63 @@ przykład: pdfmaker.py
 opis:
 - wykonać raport w pliku o nazwie: imię_nazwisko_indeks.pdf
 do wykonania:
-- przycinanie obrazków;
-- generowanie wykresów;
-- obwód elektryczny: schemat oraz obliczenia.
+- przycinanie obrazków wg 2;
+- generowanie wykresów wg 3;
+- obwód elektryczny: schemat oraz obliczenia wg 4.
 
 2. Przycinanie obrazków
-instalowanie: pip install
-linki:
-przykład:
+instalowanie: pip install pillow
+linki: https://pillow.readthedocs.io/en/stable/
+przykład: crop01.py
 
 opis:
+- przyciąć wybrane obrazki z serii: p01crop.png, p02crop.png, p03crop.png;
+- należy pozbyć się fragmentu interfejsu i zostawić jedynie wykres;
+- do raportu wstwić rysunek przed i po dla porównania;
+- bonusowo można obrobić rysunek: rys23156crop.png
+- opisać proces działania dla przycinania obrazów.
 
 3. Generowanie wykresów
-instalowanie: pip install
-linki:
-przykład:
-
+instalowanie: pip install jupyter
+linki: https://docs.python.org/3/library/csv.html
+przykład: plotlibfile01.py
 opis:
+- wygenerować wybrane wykresy dla danych z serii: rys23156.ASC, rys23237.ASC, rys23238.ASC;
+- wstwić pliki do raportu wg 1;
+- opisać generowanie wykresów.
 
 4. Obwód elektryczny: schemat oraz obliczenia
-instalowanie: pip install lcapy
+instalowanie: pip install SchemDraw
+pip install lcapy
 linki: http://lcapy.elec.canterbury.ac.nz/index.html
-rysowanie: http://lcapy.elec.canterbury.ac.nz/schematics.html
+rysowanie: https://schemdraw.readthedocs.io/en/latest/
+http://lcapy.elec.canterbury.ac.nz/schematics.html
 symulowanie: http://lcapy.elec.canterbury.ac.nz/networks.html#series-r-c-network
 alternatywa: schemdraw, ahkab, ręcznie
-przykład:symlcapy.py
+przykład: schem01.py, symlcapy.py
 
 opis:
+- narysowań schemat symulowanego obwodu elektrycznego;
+- wygenerowany rysunek wstawić do raportu;
+- opisać proces rysowania;
+- wykonać obcliczenia dla schematu z rysunku wygenerowanego;
+- pokazać metodykę obliczeń;
+- pokazać wyniki;
+- opisać proces obliczania.
+
+5. Przygotowanie materiałów do przesłąnia.
+Materiały należy spkować do pliku zip o nazwie: imię_nazwisko_indeks.zip
+Plik musi zawierać:
+- raport wg 1;
+- pliki: obrobione rysunki wg 2;
+- pliki: wykresy wg 3;
+- pliki: schemat obwodu elektrycznego.
+
+Uwaga: Nie ma wymagania dla punktów 2 i 3 obrabiania każdego z przykładów.
+Plik znależy wgrać na platformę ISOD w celu sprawdzenia.
+
+6. Ocena
+Każde z wykonanych zadań może podnieść ocenę o 0,5.
+Oceniane będzie:
+- wykonania zadania: za 0,25 oceny;
+- opis zadania: za 0,25 oceny.
